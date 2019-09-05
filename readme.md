@@ -2,12 +2,14 @@
 
 How to start back end
 
+⋅⋅⋅
 Python 3.7
 $ pip install pipenv
 $ pipenv shell
 $ pipenv install django
 $ cd backend
 $ python manage.py runserver
+⋅⋅⋅
 
 How to start front end
 Yarn
