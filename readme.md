@@ -17,5 +17,6 @@ Might be needed
 $ yarn add bootstrap reactstrap
 $ yarn add axios
 $ yarn add react-player
+$ yarn add react-router-dom
 
 $ yarn start
