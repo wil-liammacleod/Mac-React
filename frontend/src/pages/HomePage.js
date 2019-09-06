@@ -11,7 +11,9 @@ export default function HomePage() {
                 <ReactPlayer
                     url='https://www.youtube.com/watch?v=Vm-dIElJrdY'
                     playing
+                    volume='0'
                     width='100%'
+                    height='800px'
                 />
             </div>
 
