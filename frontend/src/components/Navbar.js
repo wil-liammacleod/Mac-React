@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import '../App.css'
 
 import {
     Collapse,
@@ -31,7 +32,7 @@ import {
     render() {
       return (
         <div>
-          <Navbar color="light" light expand="md">
+          <Navbar className="navbar-color" light expand="md">
             <NavbarBrand tag={Link} to="/">McMaster Esports</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
