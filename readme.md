@@ -1,24 +1,27 @@
 # Mac-React
 
-How to start back end
+## How to install backend
 
-...
 Python 3.7
 $ pip install pipenv
 $ pipenv shell
 $ pipenv install django
+
+## How to run backend
+
 $ cd backend
+$ pipenv shell
 $ python manage.py runserver
-...
 
-How to start front end
+## How to install frontend
+
+npm
 Yarn
+
 $ cd frontend
+$ yarn add bootstrap reactstrap axios react-player react-router-dom
 
-Might be needed
-$ yarn add bootstrap reactstrap
-$ yarn add axios
-$ yarn add react-player
-$ yarn add react-router-dom
+## How to run frontend
 
+$ cd frontend
 $ yarn start
