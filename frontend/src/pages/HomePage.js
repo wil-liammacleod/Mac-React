@@ -7,7 +7,8 @@ export default function HomePage() {
 
         <main className="content">
             <Navbar />
-            <div className='player-wrapper'>
+            <div style={{width: '100%', margin: 'auto'}} className='player-wrapper'>
+
                 <ReactPlayer
                     url='https://www.youtube.com/watch?v=Vm-dIElJrdY'
                     playing
@@ -15,6 +16,7 @@ export default function HomePage() {
                     width='100%'
                     height='800px'
                 />
+                
             </div>
 
         </main>
