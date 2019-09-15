@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
 import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
+import { Icon } from 'react-native-elements';
 
 
 
@@ -17,7 +18,7 @@ export default function PartnersPage() {
                     </Col>
                     <Col>
                         <div>
-                            Tesla is the leader in collegiate esports on campus and on the competitive stage. 
+                            Tespa is the leader in collegiate esports on campus and on the competitive stage. 
                             Promoting healthy competition and building connections among enthusiastic gamers is Tespa's mission for college esports. 
                             With Tespa, you can meet up with other students and schools who embrace the gaming lfiestyle. 
                             The power to participate in events or even run your own tournament is only a click away
@@ -32,7 +33,9 @@ export default function PartnersPage() {
                                 <Col>
                                     <div>
                                         <ButtonGroup>
-                                            <Button></Button>
+                                            <Button>
+
+                                            </Button>
                                             <Button>Middle</Button>
                                             <Button>Right</Button>
                                         </ButtonGroup>
