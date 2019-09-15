@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
 import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
+import TespaBlack from '../graphics/TespaBlack.png';
 
 
 
@@ -13,7 +14,7 @@ export default function PartnersPage() {
             <Container>
                 <Row className="navbar-color">
                     <Col>
-                        <img src='http://carleton.gg/wp-content/uploads/2018/06/TespaBlack.png' height='200px' />
+                        <img src={TespaBlack} height='200px' />
                     </Col>
                     <Col>
                         <div>
@@ -26,15 +27,15 @@ export default function PartnersPage() {
                             <Row>
                                 <Col>
                                     <div>
-                                        <Button color="primary">VIEW SITE</Button>{' '}
+                                        <Button color="primary" href="https://tespa.org/">VIEW SITE</Button>{' '}
                                     </div>
                                 </Col>
                                 <Col>
                                     <div>
                                         <ButtonGroup>
-                                            <Button></Button>
-                                            <Button>Middle</Button>
-                                            <Button>Right</Button>
+                                            <Button>Twitter</Button>
+                                            <Button>Facebook</Button>
+                                            <Button>Discord</Button>
                                         </ButtonGroup>
                                     </div>
                                 </Col>
