@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Navbar from "../components/Navbar";
 import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
-import { Icon } from 'react-native-elements';
 import TespaBlack from '../graphics/TespaBlack.png';
 
 
