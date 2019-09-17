@@ -11,6 +11,10 @@
   color: white;
 }
 
+.padded {
+  padding: 10px;
+}
+
 .App {
   text-align: center;
 }
