@@ -1,6 +1,11 @@
 import React, { Component } from 'react'
 import Navbar from "../components/Navbar";
 import ReactPlayer from 'react-player'
+import { Container, Row, Col } from 'reactstrap';
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Button
+  } from 'reactstrap';
 
 export default function HomePage() {
     return (
@@ -18,6 +23,39 @@ export default function HomePage() {
                 />
                 
             </div>
+
+            <div>
+
+                <h1 className='header'>What we do</h1>
+                <Container>
+                    <Row>
+                        <Col>
+                            <Card>
+                                <CardImg/>
+                                <CardBody>
+                                    <CardTitle> </CardTitle>
+                                    <CardText> Community  </CardText>
+                                    <Button></Button>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                        <Col>
+                            <Card>
+                                <CardImg/>
+                                <CardBody>
+                                    <CardTitle> </CardTitle>
+                                    <CardText> Competitive  </CardText>
+                                    <Button></Button>
+                                </CardBody>
+                            </Card>
+                        </Col>
+                    </Row>
+                </Container>
+
+
+            </div>
+
+
 
         </main>
 

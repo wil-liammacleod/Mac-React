@@ -11,7 +11,7 @@ export default function PartnersPage() {
         <div className="content">
             <Navbar />
             <div className="navbar-color">
-                <Container >
+                <Container>
                     <Row >
                         <Col xs="300">
                             <img src={TespaBlack} width='355px' />
