@@ -6,6 +6,9 @@ import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, Button
   } from 'reactstrap';
+import CommunityIcon from "../graphics/Community.png";
+import CompetitiveIcon from "../graphics/Competitive.png";
+
 
 export default function HomePage() {
     return (
@@ -31,20 +34,18 @@ export default function HomePage() {
                     <Row>
                         <Col>
                             <Card>
-                                <CardImg/>
+                                <CardImg top width="20%" src={CommunityIcon} alt="Card image cap" />
                                 <CardBody>
-                                    <CardTitle> </CardTitle>
-                                    <CardText> Community  </CardText>
+                                    <CardTitle>Community</CardTitle>
                                     <Button></Button>
                                 </CardBody>
                             </Card>
                         </Col>
                         <Col>
                             <Card>
-                                <CardImg/>
+                                <CardImg top width="20%" src={CompetitiveIcon} alt="Card image cap"/>
                                 <CardBody>
-                                    <CardTitle> </CardTitle>
-                                    <CardText> Competitive  </CardText>
+                                    <CardTitle>Competitive</CardTitle>
                                     <Button></Button>
                                 </CardBody>
                             </Card>
@@ -55,7 +56,7 @@ export default function HomePage() {
 
             </div>
 
-
+            <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
 
         </main>
 

@@ -16,7 +16,8 @@
 }
 
 .header {
-  text-emphasis:center;
+  text-align:center;
+  color: white;
 }
 
 .App {
