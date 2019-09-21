@@ -8,6 +8,7 @@ import {
   } from 'reactstrap';
 import CommunityIcon from "../graphics/Community.png";
 import CompetitiveIcon from "../graphics/Competitive.png";
+import { Link } from 'react-router-dom'
 
 
 export default function HomePage() {
@@ -36,8 +37,7 @@ export default function HomePage() {
                             <Card>
                                 <CardImg top width="20%" src={CommunityIcon} alt="Card image cap" />
                                 <CardBody>
-                                    <CardTitle>Community</CardTitle>
-                                    <Button></Button>
+                                    <Button tag={Link} to="/Community" >Community</Button>
                                 </CardBody>
                             </Card>
                         </Col>
