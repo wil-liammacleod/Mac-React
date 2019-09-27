@@ -1,3 +1,7 @@
+* {
+    color: #61dafb;
+  }
+
 .navbar-color {
   background: #FF416C;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */

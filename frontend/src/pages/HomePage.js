@@ -30,14 +30,14 @@ export default function HomePage() {
 
             <div>
 
-                <h1 className='header'>What we do</h1>
+                <h1 className='header'>Our Communities</h1>
                 <Container>
                     <Row>
                         <Col>
                             <Card>
-                                <CardImg top width="20%" src={CommunityIcon} alt="Card image cap" />
+                                <CardImg width='10%' src={CommunityIcon} alt="Card image cap" />
                                 <CardBody>
-                                    <Button tag={Link} to="/Community" >Community</Button>
+                                    <Button tag={Link} to="/Community">Community</Button>
                                 </CardBody>
                             </Card>
                         </Col>
@@ -45,8 +45,7 @@ export default function HomePage() {
                             <Card>
                                 <CardImg top width="20%" src={CompetitiveIcon} alt="Card image cap"/>
                                 <CardBody>
-                                    <CardTitle>Competitive</CardTitle>
-                                    <Button></Button>
+                                    <Button tag={Link} to="/Competitive">Competitive</Button>
                                 </CardBody>
                             </Card>
                         </Col>
