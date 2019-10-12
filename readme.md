@@ -26,9 +26,7 @@ Yarn
 
 $ cd frontend
 
-$ yarn add bootstrap reactstrap axios react-player react-router-dom
-
-$ yarn add react-big-calendar moment
+$ yarn add bootstrap reactstrap axios react-player react-router-dom react-big-calendar moment
 
 ## How to run frontend
 
