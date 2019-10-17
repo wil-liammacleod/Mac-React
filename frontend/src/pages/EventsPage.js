@@ -12,7 +12,7 @@ export default function EventsPage() {
             <Container>
                 <Row>
                     <Col>
-                        <Calender/>
+                        <Calender className='large-padded'/>
                     </Col>
                     <Col>
                     

@@ -1,5 +1,5 @@
 * {
-    color: #61dafb;
+    color: white;
   }
 
 .navbar-color {
@@ -17,6 +17,14 @@
 
 .padded {
   padding: 10px;
+}
+
+.large-padding {
+  padding: 100px;
+}
+
+.black-text {
+  color: #221f1b;
 }
 
 .header {
