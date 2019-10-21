@@ -27,6 +27,12 @@
   color: #221f1b;
 }
 
+.black-title-text {
+  color: white; 
+  font-size: 66px;
+
+}
+
 .header {
   text-align:center;
   color: white;
