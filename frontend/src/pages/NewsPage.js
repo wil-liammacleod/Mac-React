@@ -8,5 +8,5 @@ export default function NewsPage() {
             <Navbar/>
 
         </div>
-    
+    )
 }
