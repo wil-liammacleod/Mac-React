@@ -18,7 +18,11 @@ export default function TeamsPage() {
         <div className="content">
             <Navbar/>
 
+            
             <Container>
+            <div>
+                Competative Teams
+            </div>
                 <Row>
 
                     <Col xs="300">
