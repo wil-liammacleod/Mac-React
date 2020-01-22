@@ -29,7 +29,7 @@ export default function TeamsPage() {
                             CSGO 
                         </div>
                         <div>
-                            Coordinator: 
+                            Coordinator: Alec
                         </div>
                         <div>
                             Discord: DatCrazyCracker#4548
@@ -61,10 +61,10 @@ export default function TeamsPage() {
                             Hearthstone 
                         </div>
                         <div>
-                            Coordinator:  
+                            Coordinator: Liam
                         </div>
                         <div>
-                            Discord: 
+                            Discord: LiamThe#8443
                         </div>
                     </Col>
                 
@@ -73,10 +73,10 @@ export default function TeamsPage() {
                     </Col>
                     <Col>
                         <div className='padded' className='black-title-text'>
-                            League of Legends 
+                            LoL
                         </div>
                         <div>
-                            Coordinator: Alex Kournya 
+                            Coordinator: Alex 
                         </div>
                         <div>
                             Discord: Fox#9667
@@ -137,7 +137,7 @@ export default function TeamsPage() {
                     </Col>
                     <Col>
                         <div className='padded' className='black-title-text'>
-                            Star Craft 2 
+                            StarCraft 2 
                         </div>
                         <div>
                             Coordinator:  
