@@ -4,10 +4,10 @@ import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
 import CSGOLogo from '../graphics/GameLogos/CSGOLogo.png';
 import DotA2Logo from '../graphics/GameLogos/DotA2Logo.png';
-import HSLogo from '../graphics/GameLogos/HSLogo.png';
-import LoLLogo from '../graphics/GameLogos/LoLLogo.png';
+import HSLogo from '../graphics/GameLogos/HSLogo2.png';
+import LoLLogo from '../graphics/GameLogos/LoLLogo2.png';
 import OWLogo from '../graphics/GameLogos/OWLogo.png';
-import PUBGLogo from '../graphics/GameLogos/PUBGLogo.png';
+import PUBGLogo from '../graphics/GameLogos/PUBGLogo3.png';
 import RLLogo from '../graphics/GameLogos/RLLogo.png';
 import SC2Logo from '../graphics/GameLogos/SC2Logo.png';
 
