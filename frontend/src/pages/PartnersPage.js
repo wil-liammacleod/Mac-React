@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
 import TespaBlack from '../graphics/TespaBlack.png';
 import DiscordBlack from '../graphics/DiscordBlack.png';
+import MCSLogo from '../graphics/MikesLogoBlack.png';
 
 
 export default function PartnersPage() {
@@ -79,6 +80,36 @@ export default function PartnersPage() {
                     </Row>
                 </Container>
 
+                <Container>
+                    <Row >
+                        <Col xs="300">
+                            <img src={MCSLogo} width='355px' />
+                        </Col>
+                        <Col>
+                            <div className='padded' className="black-text">
+                                Mike's Computer Shop
+                            </div>
+                            <Container>
+                                <Row className='padded'>
+                                    <Col>
+                                        <div>
+                                            <Button color="primary" href="https://tespa.org/">VIEW SITE</Button>{' '}
+                                        </div>
+                                    </Col>
+                                    <Col>
+                                        <div>
+                                            <ButtonGroup>
+                                                <Button>Twitter</Button>
+                                                <Button>Facebook</Button>
+                                                <Button>Discord</Button>
+                                            </ButtonGroup>
+                                        </div>
+                                    </Col>
+                                </Row>
+                            </Container>
+                        </Col>
+                    </Row>
+                </Container>
 
             </div>
         </div>

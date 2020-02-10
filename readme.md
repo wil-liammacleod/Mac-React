@@ -1,4 +1,4 @@
-# Mac-React
+# McMaster-Esports
 
 ## How to install backend
 

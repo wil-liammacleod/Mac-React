@@ -4,10 +4,10 @@ import { Container, Row, Col } from 'reactstrap';
 import { Button, ButtonGroup } from 'reactstrap';
 import CSGOLogo from '../graphics/GameLogos/CSGOLogo.png';
 import DotA2Logo from '../graphics/GameLogos/DotA2Logo.png';
-import HSLogo from '../graphics/GameLogos/HSLogo.png';
-import LoLLogo from '../graphics/GameLogos/LoLLogo.png';
+import HSLogo from '../graphics/GameLogos/HSLogo2.png';
+import LoLLogo from '../graphics/GameLogos/LoLLogo2.png';
 import OWLogo from '../graphics/GameLogos/OWLogo.png';
-import PUBGLogo from '../graphics/GameLogos/PUBGLogo.png';
+import PUBGLogo from '../graphics/GameLogos/PUBGLogo3.png';
 import RLLogo from '../graphics/GameLogos/RLLogo.png';
 import SC2Logo from '../graphics/GameLogos/SC2Logo.png';
 
@@ -18,7 +18,11 @@ export default function TeamsPage() {
         <div className="content">
             <Navbar/>
 
+            
             <Container>
+            <div>
+                Competative Teams
+            </div>
                 <Row>
 
                     <Col xs="300">
@@ -29,7 +33,7 @@ export default function TeamsPage() {
                             CSGO 
                         </div>
                         <div>
-                            Coordinator: 
+                            Coordinator: Alec
                         </div>
                         <div>
                             Discord: DatCrazyCracker#4548
@@ -61,10 +65,10 @@ export default function TeamsPage() {
                             Hearthstone 
                         </div>
                         <div>
-                            Coordinator:  
+                            Coordinator: Liam
                         </div>
                         <div>
-                            Discord: 
+                            Discord: LiamThe#8443
                         </div>
                     </Col>
                 
@@ -73,10 +77,10 @@ export default function TeamsPage() {
                     </Col>
                     <Col>
                         <div className='padded' className='black-title-text'>
-                            League of Legends 
+                            LoL
                         </div>
                         <div>
-                            Coordinator: Alex Kournya 
+                            Coordinator: Alex 
                         </div>
                         <div>
                             Discord: Fox#9667
@@ -137,7 +141,7 @@ export default function TeamsPage() {
                     </Col>
                     <Col>
                         <div className='padded' className='black-title-text'>
-                            Star Craft 2 
+                            StarCraft 2 
                         </div>
                         <div>
                             Coordinator:  

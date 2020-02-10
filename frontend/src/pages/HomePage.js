@@ -32,9 +32,9 @@ export default function HomePage() {
 
                 <h1 className='header'>Our Communities</h1>
                 <Container>
-                    <Row>
+                    <Row >
                         <Col>
-                            <Card>
+                            <Card className="navbar-color">
                                 <CardImg width='10%' src={CommunityIcon} alt="Card image cap" />
                                 <CardBody>
                                     <Button tag={Link} to="/Community">Community</Button>
@@ -42,7 +42,7 @@ export default function HomePage() {
                             </Card>
                         </Col>
                         <Col>
-                            <Card>
+                            <Card className="navbar-color">
                                 <CardImg top width="20%" src={CompetitiveIcon} alt="Card image cap"/>
                                 <CardBody>
                                     <Button tag={Link} to="/Competitive">Competitive</Button>
