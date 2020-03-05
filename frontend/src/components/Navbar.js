@@ -54,9 +54,13 @@ import {
                 <NavItem>
                   <NavLink tag={Link} to="/News/">News</NavLink>
                 </NavItem>
+                {/*
                 <NavItem>
                   <NavLink tag={Link} to="/Events/">Events</NavLink>
                 </NavItem>
+                */}
+
+
                 <NavItem>
                   <NavLink tag={Link} to="/ContactUs/">ContactUs</NavLink>
                 </NavItem>
